@@ -1,0 +1,351 @@
+/* OINARRIZKO ESTILOA */
+body {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+  margin: 0;
+  background: #000;
+  color: #000;
+  font-family: 'Inter', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+}
+
+/* OHEBURUA */
+.site-header {
+  background: linear-gradient(145deg, #000, #800000);
+  color: #fff;
+  padding: 1px 0;
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);
+  position: sticky;
+  top: 0;
+  z-index: 1000;
+  transition: background 0.3s, box-shadow 0.3s;
+}
+
+.header-wrapper {
+  max-width: 1200px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: center;
+  /* Changed to center */
+  align-items: center;
+  padding: 0 20px;
+  flex-wrap: wrap;
+}
+
+/* LOGOTIPOA / TITULUA */
+.logo h1 {
+  font-size: 42px;
+  font-weight: 800;
+  text-transform: uppercase;
+  letter-spacing: 3px;
+  color: #fff;
+  text-shadow: 2px 2px 6px rgba(0, 0, 0, 0.35);
+  transition: transform 0.3s ease, text-shadow 0.3s ease;
+
+}
+
+.logo h1:hover {
+  transform: scale(1.05);
+  text-shadow: 3px 3px 8px rgba(0, 0, 0, 0.45);
+}
+
+.gradient-word {
+  background: linear-gradient(90deg, #fff 0%, #ff0000 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+/* Button to return */
+.bueltatu-btn {
+  display: inline-block;
+  color: #fff;
+  text-decoration: none;
+  font-weight: bold;
+  margin-bottom: 20px;
+  margin-top: 20px;
+  padding: 10px 15px;
+  background-color: #800000;
+  border-radius: 5px;
+  transition: background 0.3s;
+}
+
+.bueltatu-btn:hover {
+  background-color: #ff0000;
+}
+
+/* Read More Button */
+.gehiago-btn {
+  display: inline-block;
+  margin-top: 15px;
+  padding: 10px 20px;
+  background-color: #800000;
+  color: white;
+  text-decoration: none;
+  border-radius: 5px;
+  font-weight: bold;
+  transition: background 0.3s ease, transform 0.2s;
+}
+
+.gehiago-btn:hover {
+  background-color: #ff0000;
+  transform: translateX(5px);
+}
+
+
+/* CONTENT */
+
+main {
+  flex: 1;
+  padding: 40px 20px;
+  background: #000000;
+}
+
+#berriak-container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 20px;
+  color: white;
+}
+
+
+
+#berriak-titulua h2 {
+  font-size: 42px;
+  font-weight: 800;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  color: #ff2e2e;
+  margin-bottom: 20px;
+  text-shadow: 0 0 15px rgba(255, 0, 0, 0.7);
+  padding-bottom: 10px;
+  text-align: center;
+}
+
+.berria-nagusia {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-bottom: 60px;
+  background: #ffffffcc;
+  border-radius: 20px;
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.2);
+  overflow: hidden;
+  transition: transform 0.4s ease, box-shadow 0.4s ease;
+}
+
+.berria-nagusia:hover {
+  transform: scale(1.03);
+  box-shadow: 0 15px 45px rgba(0, 0, 0, 0.3);
+}
+
+.berria-nagusia img {
+  width: 100%;
+  height: 480px;
+  object-fit: cover;
+  border-bottom: 2px solid #ff0000;
+}
+
+.berria-nagusia .berria-edukia {
+  padding: 35px;
+  max-width: 90%;
+  text-align: center;
+}
+
+.berria-nagusia h3 {
+  font-size: 2em;
+  color: #800000;
+  margin-bottom: 15px;
+  font-weight: 700;
+}
+
+.berriak-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(340px, 1fr));
+  gap: 30px;
+}
+
+.berria {
+  background: #ffffffcc;
+  border-radius: 16px;
+  overflow: hidden;
+  box-shadow: 0 6px 20px rgba(0, 0, 0, 0.15);
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.berria:hover {
+  transform: translateY(-6px);
+  box-shadow: 0 12px 35px rgba(0, 0, 0, 0.25);
+}
+
+.berria img {
+  width: 100%;
+  height: 300px;
+  object-fit: cover;
+  border-bottom: 1px solid #ddd;
+  transition: transform 0.3s ease;
+}
+
+.berria img:hover {
+  transform: scale(1.05);
+}
+
+.berria-edukia {
+  padding: 25px;
+}
+
+.berria-edukia h3 {
+  font-size: 1.5em;
+  color: #800000;
+  margin-bottom: 12px;
+  font-weight: 600;
+}
+
+/* Text styles for extended pages */
+.testua-edukia {
+  font-size: 1.1em;
+  line-height: 1.8;
+  color: #e0e0e0;
+  background: rgba(20, 20, 20, 0.8);
+  padding: 30px;
+  border-radius: 15px;
+  border: 1px solid #333;
+}
+
+.testua-edukia p {
+  margin-bottom: 20px;
+}
+
+.testua-edukia ul {
+  margin-bottom: 20px;
+  padding-left: 20px;
+}
+
+.testua-edukia li {
+  margin-bottom: 10px;
+}
+
+
+/* AZPI-OINA */
+body>footer {
+  background: linear-gradient(145deg, #000000, #800000);
+  color: #ffffff;
+  padding: 25px 15px;
+  box-sizing: border-box;
+  border-top: 5px solid #ff0000;
+  box-shadow: 0 -4px 15px rgba(0, 0, 0, 0.2);
+  transition: background 0.5s ease;
+  margin-top: auto;
+}
+
+.footer-wrapper {
+  max-width: 2000px;
+  margin: 0 auto;
+}
+
+.footer-columns {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  gap: 15px;
+}
+
+.footer-col {
+  flex: 1 1 220px;
+  padding: 12px;
+  border-radius: 15px;
+  background: linear-gradient(145deg, #000000, #800000);
+  box-shadow: 0 6px 20px rgba(179, 255, 0, 0.08);
+  text-align: center;
+  transition: transform 0.4s ease, box-shadow 0.4s ease, background-color 0.4s ease;
+}
+
+.footer-col:hover {
+  transform: translateY(-6px);
+  box-shadow: 0 12px 30px rgba(0, 0, 0, 0.12);
+  background-color: #ffffff;
+}
+
+.footer-col h4 {
+  font-size: 16px;
+  color: #ffffff;
+  margin-bottom: 8px;
+  text-transform: uppercase;
+  letter-spacing: 1.2px;
+  border-bottom: 2px solid #000000;
+  display: inline-block;
+  padding-bottom: 4px;
+}
+
+.footer-col p,
+.footer-col ul {
+  font-size: 14px;
+  line-height: 1.6;
+  color: #ffffff;
+}
+
+.footer-col ul {
+  list-style: none;
+  padding: 0;
+}
+
+.footer-col ul li {
+  margin-bottom: 6px;
+}
+
+.footer-col ul li a {
+  color: #ffffff;
+  text-decoration: none;
+  transition: color 0.3s, transform 0.3s;
+}
+
+.footer-col ul li a:hover {
+  color: #ff0000;
+  transform: translateX(6px);
+}
+
+/* SARE SOZIAL IKONOAK */
+.social-links {
+  display: flex;
+  gap: 10px;
+  margin-top: 8px;
+  justify-content: center;
+}
+
+.social-icon {
+  display: inline-flex;
+  width: 32px;
+  height: 32px;
+  background-color: #ffffff;
+  color: #000000;
+  text-align: center;
+  line-height: 32px;
+  border-radius: 4px;
+  /* Changed from 50% to 4px for square look */
+  transition: transform 0.3s ease, background-color 0.3s ease, box-shadow 0.3s ease;
+  text-decoration: none;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+.social-icon:hover {
+  transform: rotate(15deg) scale(1.15);
+  box-shadow: 0 6px 18px #ff000033;
+}
+
+.social-icon img {
+  width: 32px;
+  height: 32px;
+  border-radius: 4px;
+  /* Changed from 50% to 4px */
+  object-fit: cover;
+  display: block;
+}
+
+.footer-bottom {
+  text-align: center;
+  margin-top: 15px;
+  font-size: 12px;
+  color: #ffffff;
+  border-top: 1px solid #000000;
+  padding-top: 10px;
+  letter-spacing: 0.5px;
+}

@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<rss version="2.0">
+<channel>
+  <title>GameStop Azken Berriak</title>
+  <link>https://iayalac25-arch.github.io/Erronka_Albisteak/</link>
+  <description>GameStop-en azken berriak, gertakariak eta eskaintzak.</description>
+  <language>eu</language>
+
+  <item>
+    <title>Bilboko GameStop dendak gau-jardun berezia egingo du “Retro Gauak” izenarekin</title>
+    <link>https://iayalac25-arch.github.io/Erronka_Albisteak/berriak_ext/berria1.html</link>
+    <description>
+        Bilboko GameStop denda nagusiak “Retro Gauak” ekimena antolatuko du datorren astean. Bertan, bezeroek 80ko
+        eta 90eko hamarkadetako kontsolak eta jokoak probatzeko aukera izango dute. Gainera, tokiko kolekzionisten
+        erakusketa bat ere egongo da. Antolatzaileek espero dute ekitaldiak zale ugari erakartzea eta etorkizunean
+        beste hiri batzuetara zabaltzea.
+    </description>
+  </item>
+
+  <item>
+    <title>GameStop PlayHub plataformak 100.000 erabiltzaile aktibo gainditu ditu</title>
+    <link>https://iayalac25-arch.github.io/Erronka_Albisteak/berriak_ext/berria2.html</link>
+    <description>
+        PlayHub zerbitzu digitalak hazkunde handia izan du azken hilabeteetan. Enpresak baieztatu du plataformak
+        100.000 erabiltzaile aktibo baino gehiago dituela jada, eta datozen asteetan funtzio berriak gehituko
+        direla.
+    </description>
+  </item>
+
+  <item>
+    <title>GameStop-ek esports txapelketa handi bat antolatuko du Bilbon</title>
+    <link>https://iayalac25-arch.github.io/Erronka_Albisteak/berriak_ext/berria3.html</link>
+    <description>
+        GameStop-ek iragarri du datorren udaberrian Bilbon esports txapelketa handi bat antolatuko duela. Lehiaketak
+        Fortnite, League of Legends eta EA FC 26 izango ditu protagonista, eta nazioarteko jokalari ezagun batzuk
+        gonbidatuko dira. Antolatzaileek espero dute ekitaldiak milaka zale erakartzea eta etorkizunean beste hiri batzuetara
+        zabaltzea.
+    </description>
+  </item>
+
+  <item>
+    <title>GameStop-ek jokalarientzako kontsumo-txartel berriak aurkeztu ditu</title>
+    <link>https://iayalac25-arch.github.io/Erronka_Albisteak/berriak_ext/berria4.html</link>
+    <description>
+        GameStop-ek kontsumo-txartel berriak merkaturatu ditu, bezeroek jokoak eta osagarriak modu erosoagoan erosi
+        ahal izan ditzaten. Txartel berriek puntu-sistema bat dute, eta erabiltzaileek deskontu bereziak eta opari
+        digitalak eskuratu ahalko dituzte. Enpresak adierazi du ekimenak jokalarien leialtasuna handitzeko helburua duela.
+    </description>
+  </item>
+
+</channel>
+</rss>
